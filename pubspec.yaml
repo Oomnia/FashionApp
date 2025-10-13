@@ -37,6 +37,7 @@ dependencies:
   flutter_svg: ^2.2.1
   gap: ^3.0.1
   path_drawing: ^1.0.1
+  video_player: ^2.10.0
 
 
 dev_dependencies:
@@ -84,6 +85,7 @@ flutter:
     - lib/assets/images/models/Cloth 4.png
     - lib/assets/images/models/image 1.png
     - lib/assets/images/models/image 6.png 
+    - lib/assets/videos/Screen_Recording.mp4
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
