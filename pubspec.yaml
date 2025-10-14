@@ -64,6 +64,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - lib/assets/svgs/arrow-left.svg
+    - lib/assets/svgs/bi_bag.svg
     - lib/assets/logo/Runway.png
     - lib/assets/logo/line.png
     - lib/assets/svgs/filter.svg
@@ -75,7 +77,7 @@ flutter:
     - lib/assets/svgs/notification.svg
     - lib/assets/svgs/select.svg
     - lib/assets/images/categories/deals.png
-    - lib/assets/images/categories/health.png
+    - lib/assets/images/categories/Health.jpg
     - lib/assets/images/categories/kids.png
     - lib/assets/images/categories/men.png
     - lib/assets/images/categories/woman.png
@@ -83,8 +85,9 @@ flutter:
     - lib/assets/images/models/Cloth 2.png
     - lib/assets/images/models/Cloth 3.png
     - lib/assets/images/models/Cloth 4.png
-    - lib/assets/images/models/image 1.png
-    - lib/assets/images/models/image 6.png 
+    - lib/assets/images/models/Cloth 5.png
+    - lib/assets/images/models/Cloth 6.png
+    - lib/assets/images/models/shadow.png
     - lib/assets/videos/Screen_Recording.mp4
 
   # An image asset can refer to one or more resolution-specific "variants", see

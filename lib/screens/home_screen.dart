@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       name: 'Deals',
     ),
     CategoryModel(
-      image: 'lib/assets/images/categories/health.png',
+      image: 'lib/assets/images/categories/Health.jpg',
       name: 'Health',
     ),
   ];
@@ -40,7 +40,8 @@ class _HomeScreenState extends State<HomeScreen> {
             setState(() {
               _controller.play();
             });
-          });
+          })
+          ..setLooping(true);
   }
 
   @override
@@ -54,10 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          AspectRatio(
-            aspectRatio: _controller.value.aspectRatio,
-            child: VideoPlayer(_controller),
-          ),
+          AspectRatio(aspectRatio: 9 / 12, child: VideoPlayer(_controller)),
 
           Padding(
             padding: const EdgeInsets.only(left: 16.0, top: 10),

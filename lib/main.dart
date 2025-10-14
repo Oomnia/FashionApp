@@ -11,6 +11,10 @@ class FashionApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(
+      theme: ThemeData(scaffoldBackgroundColor: Colors.white),
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
+    );
   }
 }
