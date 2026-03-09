@@ -1,16 +1,49 @@
-# fashion_app
+# 👗 Fashion App
 
-A new Flutter project.
+A modern **Flutter eCommerce fashion application** that provides users with a smooth shopping experience for browsing fashion products, viewing details, and managing their shopping cart.
 
-## Getting Started
+This project was built as a practice project to improve Flutter development skills and UI implementation.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🏠 Home screen with fashion products
+- 👕 Product list and product details
+- 🛒 Shopping cart functionality
+- 📍 Add and manage delivery address
+- 💳 Add payment card
+- 🎨 Clean and modern UI
+- 📱 Responsive design for mobile devices
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Material UI**
+- **Custom Widgets**
+
+---
+
+## 📂 Project Structure
+lib
+│
+├── core
+│ └── colors.dart
+│
+├── screens
+│ ├── home_page.dart
+│ ├── cart_page.dart
+│ ├── add_address_page.dart
+│ └── add_card.dart
+│
+├── widgets
+│ ├── custom_app_bar.dart
+│ ├── custom_button.dart
+│ ├── cart_widget.dart
+│ ├── address_info.dart
+│ └── promo_widget.dart
+│
+└── main.dart
