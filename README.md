@@ -1,10 +1,8 @@
 # 👗 Fashion App
 
-A modern **Flutter eCommerce fashion application** that provides users with a smooth shopping experience for browsing fashion products, viewing details, and managing their shopping cart.
+A modern **Flutter e-commerce fashion application** that allows users to browse products, add items to the cart, manage delivery addresses, and simulate the checkout process.
 
-This project was built as a practice project to improve Flutter development skills and UI implementation.
-
----
+This project was built to practice **Flutter development, UI design, and reusable widget architecture**.
 
 ## ✨ Features
 
